@@ -1,0 +1,12 @@
+[
+  {
+    "address": "河南",
+    "name": "Apple",
+    "price": 9000
+  },
+  {
+    "address": "深圳",
+    "name": "华为",
+    "price": 8299
+  }
+]

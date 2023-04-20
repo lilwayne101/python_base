@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts-wordcloud.min.js"></script>
+
+</head>
+<body >
+    <div id="51bdf4ce84084b00af26e2adc55a8518" class="chart-container" style="width:900px; height:500px; "></div>
+    <script>
+        var chart_51bdf4ce84084b00af26e2adc55a8518 = echarts.init(
+            document.getElementById('51bdf4ce84084b00af26e2adc55a8518'), 'white', {renderer: 'canvas'});
+        var option_51bdf4ce84084b00af26e2adc55a8518 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "color": [
+        "#5470c6",
+        "#91cc75",
+        "#fac858",
+        "#ee6666",
+        "#73c0de",
+        "#3ba272",
+        "#fc8452",
+        "#9a60b4",
+        "#ea7ccc"
+    ],
+    "series": [
+        {
+            "type": "wordCloud",
+            "shape": "cardioid",
+            "rotationRange": [
+                0,
+                0
+            ],
+            "rotationStep": 45,
+            "girdSize": 20,
+            "sizeRange": [
+                20,
+                100
+            ],
+            "data": [
+                {
+                    "name": "Python",
+                    "value": 100,
+                    "textStyle": {
+                        "color": "rgb(109,49,121)"
+                    }
+                },
+                {
+                    "name": "C#",
+                    "value": 90,
+                    "textStyle": {
+                        "color": "rgb(39,144,30)"
+                    }
+                },
+                {
+                    "name": "java",
+                    "value": 80,
+                    "textStyle": {
+                        "color": "rgb(68,128,138)"
+                    }
+                },
+                {
+                    "name": "PHP",
+                    "value": 50,
+                    "textStyle": {
+                        "color": "rgb(8,82,104)"
+                    }
+                },
+                {
+                    "name": "JS",
+                    "value": 60,
+                    "textStyle": {
+                        "color": "rgb(49,105,137)"
+                    }
+                },
+                {
+                    "name": "C",
+                    "value": 65,
+                    "textStyle": {
+                        "color": "rgb(41,135,5)"
+                    }
+                }
+            ],
+            "drawOutOfBound": false,
+            "textStyle": {
+                "emphasis": {}
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderWidth": 1,
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "title": [
+        {
+            "show": true,
+            "target": "blank",
+            "subtarget": "blank",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
+        }
+    ]
+};
+        chart_51bdf4ce84084b00af26e2adc55a8518.setOption(option_51bdf4ce84084b00af26e2adc55a8518);
+    </script>
+</body>
+</html>
